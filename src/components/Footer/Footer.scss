@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: darkslateblue;
+    height: 10vh;
+  
+    p {
+      font-size: 20px;
+      span {
+        a{
+            color: white;
+            text-decoration: none;
+            border: 2px solid black;
+            border-radius: 7px;
+            transition: all 0.3s ease;
+    
+            &:hover{
+                transform: scale(1.1);
+                color: rgb(92, 43, 226);
+                background: whitesmoke;
+            }
+        }
+      }
+    }
+}

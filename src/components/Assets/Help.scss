@@ -1,0 +1,18 @@
+.help{
+    display: grid;
+    flex-direction: row;
+    color: black;
+    font-size: 20px;
+
+    .correct{
+        color: darkgreen;
+    }
+
+    .almostCorrect{
+        color: greenyellow;
+    }
+
+    .wrong{
+        color: red;
+    }
+}
